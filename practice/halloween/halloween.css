@@ -1,0 +1,41 @@
+body {
+    background-color: orangered;
+}
+section h2{
+    color: white;
+    background-color: black;
+    border: dotted;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+section p{
+    color: red;
+    background-color: burlywood;
+    border: solid;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+}
+h1{
+    color:orangered;
+    background-color: black;
+    padding:10px;
+    border-color: white;
+    border: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+img{
+    float:right;
+    border: 5px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: white;
+}
+li {
+    display: inline;
+    margin-left: 10%;
+    color: white;
+}
