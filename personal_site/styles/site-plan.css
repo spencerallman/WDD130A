@@ -43,6 +43,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  font-family: 'Times New Roman', Times, serif;
 }
 h2 {
   text-align: center;
@@ -66,6 +67,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .colors {
   width: 100%;
@@ -83,12 +85,15 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  background-color: navy;
 }
 .secondary {
   background-color: var(--secondary-color);
+  background-color: goldenrod;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  background-color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
