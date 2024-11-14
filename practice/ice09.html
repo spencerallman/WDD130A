@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <ul>
+            <li><img src="city.jpg" alt="city backdrop"></li>
+            <li><h1>Post Three</h1></li>
+            <li>Here's some text that would go here about the article or something but I'm too lazy to write a ton so I'm gonna stop here.</li>
+            <li id="bottom">
+                <p class="element">5<sup>m</sup><sub>READ</sub></p>
+                <p class="element">2031<sub>VIEWS</sub></p>
+                <p class="element">15<sub>COMMENTS</sub></p>
+            </li>
+        </ul>  
+    </div>
+</body>
+<style>
+    #main {
+        width:250px;
+        height: 600px;
+        border: 2px solid black;
+        border-radius: 15px;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        position: relative;
+        left: -25px;
+        overflow: hidden;
+    }
+    img {
+        width: 250px;
+    }
+    #bottom.element {
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+    }
+</style>
+</html>
