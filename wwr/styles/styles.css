@@ -219,6 +219,15 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+#subpage {
+    color: white;
+    margin: auto;
+}
+#subpage img {
+    float: left;
+    padding: 20px;
+    width: 500px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -261,5 +270,4 @@ nav {
     }
     footer {
         margin-top: 25px;
-    }
-}
+    }}
