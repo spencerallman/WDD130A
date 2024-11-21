@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    margin: 15px;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 20px;
+    grid-column: 2/3;
+}
