@@ -1,0 +1,41 @@
+.logo {
+    height: 100px;
+    grid-column: 1/2;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-align: center;
+    padding: 25px;
+}
+
+#homepage {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    max-width: fit-content;
+    
+}
+
+#reading{
+    width: 450px;
+    grid-column: 1/2;
+}
+
+#welcome{
+    grid-column: 3/6;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
