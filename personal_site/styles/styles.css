@@ -1,3 +1,7 @@
+body{
+    background-color: navy;
+}
+
 .logo {
     height: 100px;
     grid-column: 1/2;
@@ -6,6 +10,7 @@
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: goldenrod;
 }
 
 nav {
@@ -15,13 +20,37 @@ nav {
 nav a {
     text-align: center;
     padding: 25px;
+    color: navy;
+}
+
+nav a:hover {
+    color: white;
+    background-color: navy;
 }
 
 #homepage {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     max-width: fit-content;
-    
+    background-color: navy;
+}
+
+h1, h2{
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#homepage p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#homepage a{
+    color: white;
+}
+
+#homepage a:hover{
+    color: goldenrod;
 }
 
 #reading{
@@ -38,4 +67,14 @@ footer{
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
+    background-color: goldenrod;
+}
+
+footer a{
+    color: navy;
+}
+
+footer a:hover {
+    color: white;
+    background-color: navy;
 }
