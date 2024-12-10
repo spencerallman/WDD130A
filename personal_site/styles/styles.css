@@ -84,6 +84,20 @@ h1, h2{
     color: goldenrod;
 }
 
+#answerpage{
+    background-color: navy;
+}
+
+#answerpage img{
+    float: right;
+    padding: 10px;
+}
+
+#answerpage a, p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
